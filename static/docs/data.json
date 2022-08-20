@@ -1,0 +1,26 @@
+[
+    {
+        "height": 178.0,
+        "weight": 80.0,
+        "bmi": 25.25,
+        "result": "overweight"
+    },
+    {
+        "height": 200.0,
+        "weight": 90.56,
+        "bmi": 22.64,
+        "result": "healthy"
+    },
+    {
+        "height": 178.0,
+        "weight": 200.0,
+        "bmi": 63.12,
+        "result": "severely obese"
+    },
+    {
+        "height": 188.0,
+        "weight": 100.0,
+        "bmi": 28.29,
+        "result": "overweight"
+    }
+]
