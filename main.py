@@ -24,7 +24,7 @@ def exp():
 @app.route('/weather')
 def weather():
   country = "Toronto"
-  url = f"https://api.openweathermap.org/data/2.5/weather?q={country},CA&appid=9821d430bd99ea2cf1e664d59fc7b028"
+  url = f"https://api.openweathermap.org/data/2.5/weather?q={country},CA&appid=open-weathermap-api-key"
   r = requests.get(url)
   data = r.json()
   temp = float(data["main"]["temp"])
